@@ -7,6 +7,7 @@
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
     color: white;
+    text-decoration: none;
 }
 
 @font-face {
@@ -206,13 +207,38 @@ main {
 .curriculum-content {
     width: 42.3vw;
     height: 20vh;
-    background-color: black;
     text-align: center;
-    margin: 1vh 0;  /* Second requirement, but in a way that makes */
+    margin: 1vh 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vh;
+    transition: all 0.4s ease-in-out;
+    border-radius: 3%;
+}
+
+.curriculum-content:hover {
+    background-color: #de4d3a;
+    transition: all 0.4s ease-in-out;
 }
 
 .curriculum-content h2 {
-    font-family: goodtimes,'Times New Roman', Times, serif;
+    font-family: goodtimes,'Times New Roman', Times, serif; 
+}
+
+#curriculum-vitae {
+    background-image: url(../img/curriculum-logo.png);
+}
+
+#curriculum-github {
+    background-image: url(../img/github-logo.png);
+}
+
+#curriculum-linkedin {
+    background-image: url(../img/linkedin-logo.png);
+}
+
+#curriculum-test {
+    background-image: url(../img/comingsoon-logo.png);
 }
 
 #contact {
@@ -228,7 +254,14 @@ main {
 .contact-content {
     width: 42vw;
     height: 68vh;
-    padding-top: 30vh;
+}
+
+.contact-content address h2{
+    margin-top: 10vh;
+}
+
+.contact-content form {
+    margin-top: 10vh;
 }
 
 #speakwithme {  
