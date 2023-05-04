@@ -349,7 +349,7 @@ main {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 12.5vh;
     background-color: #1c172b;
     display: flex;
