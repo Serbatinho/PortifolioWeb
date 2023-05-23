@@ -1,0 +1,50 @@
+#fullcurriculum-container {
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 0 6vw;
+    padding-top: 2vw;
+    background-color: transparent;
+}
+
+.curriculum-content {
+    width: 42.3vw;
+    height: 20vh;
+    text-align: center;
+    margin: 1vh 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vh;
+    transition: all 0.4s ease-in-out;
+    border-radius: 3%;
+    background-color: rgba($maintheme-color, 0.2);
+    @include shadow;
+
+    h2 {
+        font-family: goodtimes,'Times New Roman', Times, serif; 
+    }
+    
+}
+
+.curriculum-content:hover {
+    background-color: $maintheme-color;
+    transition: all 0.4s ease-in-out;
+}
+
+#curriculum-vitae {
+    background-image: url(../img/curriculum-logo.png);
+}
+
+#curriculum-github {
+    background-image: url(../img/github-logo.png);
+}
+
+#curriculum-linkedin {
+    background-image: url(../img/linkedin-logo.png);
+}
+
+#curriculum-test {
+    background-image: url(../img/comingsoon-logo.png);
+}

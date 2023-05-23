@@ -1,0 +1,414 @@
+#contact {
+  width: 100%;
+  height: 75vh;
+  background-color: #1c172b;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 0 6vw;
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+
+.contact-content {
+  width: 42vw;
+  height: 68vh;
+}
+
+.contact-content address h2 {
+  margin-top: 10vh;
+}
+
+.contact-content form {
+  margin-top: 10vh;
+}
+
+#speakwithme {
+  display: flex;
+  justify-content: center;
+}
+#speakwithme address h2 {
+  font-size: 2rem;
+  margin-bottom: 1vh;
+}
+#speakwithme address .icon {
+  margin: 0 1vw 0 0;
+}
+
+.speakwithme-section {
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+}
+
+#contact-email form {
+  align-items: center;
+}
+
+#speakwithmeicon1 {
+  background-image: url(../img/phone-icon.png);
+}
+
+#speakwithmeicon2 {
+  background-image: url(../img/email-icon.png);
+}
+
+#speakwithmeicon3 {
+  background-image: url(../img/location-icon.png);
+}
+
+.form-control {
+  background-color: transparent;
+  border: 2px solid rgb(171, 171, 171);
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2vh 3vw;
+  font-size: 1rem;
+  align-items: center;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  margin-bottom: 1.5vh;
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+
+#send:hover {
+  background-color: #de4d3a;
+  border-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+#coworkers {
+  width: 100%;
+  height: 12.5vh;
+  background-color: transparent;
+}
+
+#coworkers h2 {
+  font-size: 2rem;
+  margin-left: 5vw;
+}
+
+#fullcurriculum-container {
+  width: 100%;
+  height: 48vh;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 0 6vw;
+  padding-top: 2vw;
+  background-color: transparent;
+}
+
+.curriculum-content {
+  width: 42.3vw;
+  height: 20vh;
+  text-align: center;
+  margin: 1vh 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20vh;
+  transition: all 0.4s ease-in-out;
+  border-radius: 3%;
+  background-color: rgba(222, 77, 58, 0.2);
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+.curriculum-content h2 {
+  font-family: goodtimes, "Times New Roman", Times, serif;
+}
+
+.curriculum-content:hover {
+  background-color: #de4d3a;
+  transition: all 0.4s ease-in-out;
+}
+
+#curriculum-vitae {
+  background-image: url(../img/curriculum-logo.png);
+}
+
+#curriculum-github {
+  background-image: url(../img/github-logo.png);
+}
+
+#curriculum-linkedin {
+  background-image: url(../img/linkedin-logo.png);
+}
+
+#curriculum-test {
+  background-image: url(../img/comingsoon-logo.png);
+}
+
+footer {
+  width: 100%;
+  height: 12.5vh;
+  background-color: #1c172b;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+footer p {
+  border-top: 1px solid #de4d3a;
+  padding-top: 1vh;
+  width: 57vw;
+  text-align: center;
+}
+
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, "Times New Roman", Times, serif;
+  text-shadow: 0 2px 0 rgb(0, 0, 0);
+  color: white;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: goodtimes;
+  src: url("../fonts/goodtimesrg.otf");
+}
+main {
+  background-color: #2d2842;
+  background-position: center center;
+  background-size: 100vw 100vh;
+}
+
+#fullhome-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  background-image: url("../img/backgrounddarkpc.jpg");
+  background-position: center center;
+  background-size: 100vw 100vh;
+}
+
+#midhome-container {
+  height: 100%;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+#home-content {
+  width: 100%;
+  height: 60%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#home-content h2 {
+  margin: 0 0 3vh 0;
+  font-size: 2em;
+}
+#home-content h1 {
+  margin: 0 0 7vh 0;
+}
+#home-content p {
+  margin: 0 0 5vh 0;
+  font-size: 1.2em;
+}
+#home-content a {
+  transition: all 0.4s ease-in-out;
+}
+
+.home-title {
+  border: 1px solid #de4d3a;
+  color: #de4d3a;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  padding: 1.2rem 3rem 1.5rem 3rem;
+  display: inline-block;
+  font-family: goodtimes, "Times New Roman", Times, serif;
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+
+.rolltexthome-container {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 7vh 0;
+}
+
+.rolltexthome-container span {
+  font-size: 2.5rem;
+}
+
+.stdbutton {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 0.7rem 1.5rem 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.stdbutton:hover {
+  background-color: #de4d3a;
+  border-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.icon {
+  background-image: url(../image/laptop-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  padding: 20px 20px;
+  border: 2px solid #de4d3a;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  background-color: transparent;
+  box-sizing: border-box;
+  background-position: center center;
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+.icon:hover {
+  background-color: #de4d3a;
+}
+
+#whatido {
+  width: 100%;
+  height: 50vh;
+  background-color: #1c172b;
+  box-shadow: 0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+}
+
+#whatido-title {
+  width: 80vw;
+  margin: 0 10vw 0 10vw;
+  height: 15vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #de4d3a;
+  padding-top: 1vh;
+}
+#whatido-title h2 {
+  font-size: 2rem;
+}
+
+#whatido-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.whatido-trait {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 28vh;
+  width: 28vw;
+  margin-top: 3vh;
+}
+
+.whatido-icon {
+  height: auto;
+}
+
+#whatidoicon1 {
+  background-image: url(../img/laptop-icon.png);
+}
+
+#whatidoicon2 {
+  background-image: url(../img/python-icon.png);
+}
+
+#whatidoicon3 {
+  background-image: url(../img/js-icon.png);
+}
+
+.whatido-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70%;
+  margin: 0 0vw 0 0vw;
+}
+
+.whatido-text h3 {
+  align-self: flex-start;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: 2vh;
+}
+
+.whatido-text p {
+  width: 100%;
+  align-self: flex-end;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    font-size: 14px;
+  }
+  .icon {
+    padding: 22px 22px;
+    background-size: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  * {
+    font-size: 15px;
+  }
+  #home-content {
+    width: 80%;
+    height: 80%;
+  }
+  #fullcurriculum-container {
+    gap: 0 4vw;
+    padding-top: 2vw;
+  }
+  .curriculum-content {
+    width: 20vw;
+    height: 40vh;
+  }
+  .icon {
+    background-size: 30px;
+    padding: 25px 25px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  * {
+    font-size: 16px;
+  }
+  #home-content {
+    width: 60%;
+    height: 80%;
+  }
+  .icon {
+    background-size: 35px;
+    padding: 25px 25px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  * {
+    font-size: 18px;
+  }
+  #home-title {
+    margin-bottom: 3vw;
+  }
+  #home-content p {
+    margin-bottom: 6vw;
+  }
+  .icon {
+    padding: 35px 35px;
+  }
+}/*# sourceMappingURL=style.css.map */
