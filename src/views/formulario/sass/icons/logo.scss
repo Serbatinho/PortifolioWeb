@@ -1,0 +1,17 @@
+.logo {
+    border: 2px solid $mainThemeColor;
+    color: $mainThemeColor;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 4vh;
+    padding: 2vh 3vw;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+    
+    @include shadow;
+}
+.logo:hover {
+    filter: blur(0.3px);
+    transition: 0.3s ease-in-out;
+    background-color: rgba($mainThemeColor, 0.1);
+}

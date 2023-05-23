@@ -1,0 +1,18 @@
+.icon {
+    background-image: url(../image/laptop-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    padding: 20px 20px;
+    border: 2px solid $mainThemeColor;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+    box-sizing: border-box;
+    background-position: center center;
+    @include shadow;
+
+    &:hover {
+        background-color: $mainThemeColor;
+    }
+}

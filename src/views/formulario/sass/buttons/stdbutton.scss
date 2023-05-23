@@ -1,0 +1,27 @@
+.stdButton{
+    width: auto;
+    height: 7vh;
+    min-width: 60px;
+    min-height: 40px;
+    background-color: transparent;
+    text-shadow: 0 1.5px 0 black;
+    border: 1.5px solid $mainThemeColor;
+    border-radius: 3%;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    @include shadow;
+    
+
+    span {
+        margin: 1.5vh 2vh;
+        font-size: 1.5rem;
+    }
+
+}
+
+.stdButton:hover{
+    border: none;
+    background-color: $mainThemeColor;
+    transition: ease-in-out 0.5s;
+    text-shadow: none;
+}

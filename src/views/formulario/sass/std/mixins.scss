@@ -1,0 +1,10 @@
+@mixin flex-standart{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@mixin shadow {
+    box-shadow:  0.2vh 0.1vw 0.265vh 0.025vw rgba(0, 0, 0, 0.5);
+    // box-shadow:  2px 2px 3.65px 0.35px rgba(0, 0, 0, 0.5);
+}

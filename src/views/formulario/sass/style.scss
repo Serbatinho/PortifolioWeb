@@ -1,0 +1,18 @@
+//std
+@import './std/variables.scss';
+@import './std/mixins.scss';
+@import './std/normalize.scss';
+
+//icons
+@import './std/fonts.scss';
+@import './icons/logo.scss';
+
+//header
+@import './header/header.scss';
+
+//buttons
+@import './buttons/stdbutton.scss';
+
+
+//main 
+@import './main/main.scss';

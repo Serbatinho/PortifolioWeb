@@ -1,0 +1,18 @@
+#headerFullContainer {
+    width: 100%;
+    height: 13vh;
+    background-color: $backgroundContentsColor;
+    display: flex;
+    @include flex-standart;
+    justify-content: space-between;
+    
+        h1 {
+            margin-left: 2.5vw;
+        }
+
+        div {
+            margin-right:5vw;
+            @include flex-standart;
+            gap: 0 2vw;
+        }
+}
