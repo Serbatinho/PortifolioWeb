@@ -1,0 +1,72 @@
+@media only screen and (min-width: 768px) {
+    *{
+        font-size: 14px;
+    }
+
+    .icon {
+        padding: 22px 22px;
+        background-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    *{
+        font-size: 15px;
+    }
+
+    #home-content{
+        width: 80%;
+        height: 80%;
+    }
+
+    #fullcurriculum-container {
+        gap: 0 4vw;
+        padding-top: 2vw;
+    }
+
+    .curriculum-content{
+        width: 20vw;
+        height: 40vh;
+    }
+
+    .icon {
+        background-size: 30px;
+        padding: 25px 25px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1280px) {
+    *{
+        font-size: 16px;
+    }
+
+    #home-content{
+        width: 60%;
+        height: 80%;
+    }
+
+    .icon {
+        background-size: 35px;
+        padding: 25px 25px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    *{
+        font-size: 18px;
+    }
+
+    #home-title {
+        margin-bottom: 3vw;
+    }
+
+    #home-content p {
+        margin-bottom: 6vw;
+    }
+
+    .icon {
+        padding: 35px 35px;
+    }
+}
